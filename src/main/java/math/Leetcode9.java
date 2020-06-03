@@ -1,4 +1,4 @@
-package palindrome;
+package math;
 
 /**
  * @author: liuqiang

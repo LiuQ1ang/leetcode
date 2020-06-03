@@ -38,7 +38,12 @@ package bit;
 public class Leetcdoe191 {
 
     public int hammingWeight(int n) {
-        return 0;
+        int ans = 0;
+        while(n > 0) {
+            n &= (n - 1);
+            ans++;
+        }
+        return ans;
     }
 
 }
